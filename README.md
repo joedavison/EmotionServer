@@ -60,8 +60,9 @@ modify predict_from_ndarray() function in fermodel.py on line 70 to return full 
 
 # Run the server:
 
- source EmotionEnvironment/bin/activate
- nohup python3 EmotionServer/server.py & 
+source EmotionEnvironment/bin/activate
+
+nohup python3 EmotionServer/server.py & 
 
 
 
