@@ -74,7 +74,7 @@ POST to /image
  "application/json"  
 
  request body:
- {"image":"<data-uri>"}
+ {"image":"data-uri"}
 
  response body:
  {
