@@ -43,6 +43,8 @@ cd EmoPy
 
 pip3 install -r requirements.txt 
 
+sudo pip3 install opencv-python
+
 edit ./EmoPy/EmoPy/src/data_generator.py
   on line 5: K.set_image_dim_ordering('th') --> K.set_image_data_format('channels_last')
 
